@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday! 🎉</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      padding: 50px;
+      color: #fff;
+    }
+    h1 {
+      font-size: 50px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+    .cake {
+      font-size: 100px;
+      animation: bounce 1s infinite alternate;
+    }
+    @keyframes bounce {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-20px); }
+    }
+    .button {
+      background-color: #fff;
+      color: #ff6f91;
+      padding: 15px 30px;
+      font-size: 20px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .button:hover {
+      background-color: #ff6f91;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="cake">🎂</div>
+  <h1>Happy Birthday, Ghazala 🥳</h1>
+  <p>Wishing you all the smiles, love, and happiness today and always!</p>
+  <button class="button" onclick="alert('You are amazing! Have a fabulous day! 💖')">Click Me 💝</button>
+</body>
+</html>
